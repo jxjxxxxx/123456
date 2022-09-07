@@ -1,1 +1,0 @@
-import{i as a}from"./http.359cfc1d.js";const e=async s=>(await a.get("/api/oss/random-share-background",{})).data,i=async s=>(await a.get("/api/task/share/card-img-size",{})).data;export{e as b,i as s};
