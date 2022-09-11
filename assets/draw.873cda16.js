@@ -1,0 +1,1 @@
+import{i as s}from"./index.f4d34c74.js";const o=async a=>(await s.post(`/api/draw/${a}`,{})).data,n=async(a,r)=>(await s.get("/api/draw/records",{params:{current:a,size:r}})).data;export{o as d,n as g};
